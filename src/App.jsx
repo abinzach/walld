@@ -6,12 +6,13 @@ import Works from "./components/Works";
 
 const Container = styled.div`
   height: 100vh;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: block;
   scroll-behavior: smooth;
   overflow-y: auto;
   scrollbar-width: none;
   color: white;
   background: black;
+  -webkit-tap-highlight-color:transparent;
   &::-webkit-scrollbar{
     display: none;
   }

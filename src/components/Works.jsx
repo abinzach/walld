@@ -78,7 +78,7 @@ const ListItem = styled.li`
     width: 0px;
     overflow: hidden;
     white-space: nowrap;
-    -webkit-text-stroke: 1px black;
+    
   }
  
   &:hover {

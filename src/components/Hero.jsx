@@ -94,6 +94,7 @@ const Right = styled.div`
   @media only screen and (max-width: 768px) {
     flex: 1;
     width: 100%;
+    height:50%;
   }
 `;
 
@@ -112,6 +113,7 @@ const Img = styled.img`
   @media only screen and (max-width: 768px) {
     width: 300px;
     height: 300px;
+    margin:10% 10%;
   }
 
   @keyframes animate {
@@ -138,21 +140,21 @@ const Hero = () => {
           <Button>See Projects</Button>
         </Left>
         <Right>
-          <Canvas>
+        {/*<Canvas>
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false} />
               <ambientLight intensity={1} />
               <directionalLight position={[3, 2, 1]} />
-              {/*<Sphere args={[1, 100, 200]} scale={2.4}>
+              <Sphere args={[1, 100, 200]} scale={2.4}>
                 <MeshDistortMaterial
                   color="#533c62"
                   attach="material"
                   distort={0.5}
                   speed={1}
                 />
-  </Sphere>*/}
+  </Sphere>
             </Suspense>
-          </Canvas>
+          </Canvas>*/}
           <Img src="./img/walld-hero.png" />
         </Right>
       </Container>

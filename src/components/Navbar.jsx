@@ -86,7 +86,7 @@ const Navbar = () => {
       <Container>
         <Links>
           {/*<Logo src="./img/logo.png" />*/}
-          <h1 style={{fontFamily:"Poppins",fontSize:"50px",cursor:"default"}}>walld</h1>
+          <h1 style={{fontFamily:"serif",fontSize:"50px",cursor:"default"}}>walld</h1>
           <List>
             
             <ListItem>Studio</ListItem>
